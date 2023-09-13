@@ -22,6 +22,10 @@ func DoPull(action string) {
 	// 去同步我的文件
 	go func() {
 		item := config[action].(map[interface{}]interface{})
+		if item == nil {
+			log.Printf("cannot find any config by action %s \n , ignore ", action)
+			return
+		}
 		dir := item["dir"].(string)
 		project := item["project"].(string)
 		forceUpdate := item["force-update"].(bool)
