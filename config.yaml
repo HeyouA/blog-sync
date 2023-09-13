@@ -1,0 +1,14 @@
+blog:
+  force-update: true
+  #dir: /usr/share/nginx/
+  dir: 'D:\github\'
+  project: weiluoliang.github.io
+  git: https://github.com/weiluoliang/weiluoliang.github.io.git
+  branch: gh-page
+images:
+  force-update: false
+ # dir: /usr/share/nginx/
+  dir: 'D:\github\'
+  project: images
+  git: https://github.com/weiluoliang/images.git
+  branch: main
