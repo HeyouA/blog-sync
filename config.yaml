@@ -1,6 +1,6 @@
 blog:
   force-update: true
-  #dir: /usr/share/nginx/
+  #dir: /usr/share/ngin x/
   dir: 'D:\github\'
   project: weiluoliang.github.io
   git: https://github.com/weiluoliang/weiluoliang.github.io.git
